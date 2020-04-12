@@ -1,0 +1,59 @@
+*{margin:0px;padding: 0px;}
+header{background-image: url('../images/banner.jpg');height: 953px;background-position: fixed center;background-color:rgba(0,0,0,.5);
+ background-blend-mode: overlay;background-repeat: no-repeat;background-size: 100% 100%; position: relative; }
+.bg-dark {
+    background-color: transparent!important;
+}
+.navbar-dark .navbar-nav .nav-link {color:white!important }
+.header-content h2{color:#fa7c30;}
+.header-content{margin-top: 220px}
+.header-content h1, h2{ font-size: 60px;padding-left:40px}
+.header-content p{margin-left: 40px;color:white;}
+.header-content a{margin-left: 40px;margin-top: 1rem;color:white}
+.btn-primary {color: #fff;background-color: #fa7c30;border-color:#fa7c30;}
+.btn-primary:hover{background-color: #fa7c30;border-color:#fa7c30;}
+.contact-box img{margin-left:-15px }
+.contact-box{margin-top: 15%;z-index:-1;box-shadow: 5px 5px 15px 5px rgba(230, 233, 234, 0.5);}
+.contact-box input{margin-top: 40px;border-top: none;border-left: none;border-right: none}
+input:focus {outline: none;}
+.about-session{background-color: #f1f4f6;}
+.about-session .row{padding-top: 45%;}
+ span{color:#fa7c30; }
+.about-session p{font-size: 14px}
+.about-content{margin-top: 10rem}
+.program-session .card{background-color: #f1f4f6;}
+.program-session .card{font-size: 14px}
+.program-session .card h3{padding: 1rem}
+.program-session .card p {padding: 0rem 1rem}
+.program-session .card a {margin: 1rem 1rem}
+.navbar-dark .navbar-toggler {color:#fa7c30!important;border-color: #fa7c30;outline: none}
+.trainer{background-image: url('../images/trainer-img.jpg');height:589px;background-position: fixed center;background-color:rgba(0,0,0,.5);
+ background-blend-mode: overlay;position: relative;background-repeat: no-repeat;background-size:100% 100%;padding-top: 200px}
+.trainer p{font-size: 36px;color:white;}
+.trainers-session{background:#f1f4f6;}
+.trainers-session .card{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: transparent!important;
+    background-clip: border-box;
+    border:none;
+}
+.trainers-name{font-size: 25px}
+@media (max-width: 576px) {
+.header-content h1, h2{font-size: 30px;padding-left:40px;}
+.header-content{margin-top: 100px}
+ .about-session .row{padding-top: 100%;}
+}
+@media (max-width: 768px) {
+	.header-content h1, h2{font-size: 30px;padding-left:40px;}
+    .header-content{margin-top: 100px}
+    .about-session .row{padding-top: 100%;}  
+}
+@media (max-width: 1026px) {
+	.bg-dark {
+    background-color: #fa7c30!important;
+}
