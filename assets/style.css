@@ -1,10 +1,17 @@
 *{margin:0px;padding: 0px;}
-header{background-image: url('../images/banner.jpg');height: 953px;background-position: fixed center;background-color:rgba(0,0,0,.5);
- background-blend-mode: overlay;background-repeat: no-repeat;background-size: 100% 100%; position: relative; }
-.bg-dark {
-    background-color: transparent!important;
-}
-.navbar-dark .navbar-nav .nav-link {color:white!important }
+.header{background-image: url('../images/banner.jpg');height: 953px;background-position: fixed center;background-color:rgba(0,0,0,.5);
+ background-blend-mode: overlay;background-repeat: no-repeat;background-size: 100% 100%;}
+
+ /**********************************************/
+  .navbar-css{height: auto;position:absolute;width: 100%;z-index:1 ;font-size: 14px;}
+  .navbar-css ul li{list-style: none;display: inline-block;padding: 20px 20px;text-transform: uppercase;}
+  .navbar-css ul li a{color:white;text-decoration: none;}
+  .logo{float: left;padding: 16px 20px}
+  .right-menu{text-align: right;}
+  .left-menu{float: left;}
+  .logo i{float:right;color:white;font-size: 25px;display:none;}
+
+ /*********************************************/
 .header-content h2{color:#fa7c30;}
 .header-content{margin-top: 220px}
 .header-content h1, h2{ font-size: 60px;padding-left:40px}
@@ -13,7 +20,7 @@ header{background-image: url('../images/banner.jpg');height: 953px;background-po
 .btn-primary {color: #fff;background-color: #fa7c30;border-color:#fa7c30;}
 .btn-primary:hover{background-color: #fa7c30;border-color:#fa7c30;}
 .contact-box img{margin-left:-15px }
-.contact-box{margin-top: 15%;z-index:-1;box-shadow: 5px 5px 15px 5px rgba(230, 233, 234, 0.5);}
+.contact-box{position: relative;margin-top: 15%;z-index:1;box-shadow: 5px 5px 15px 5px rgba(230, 233, 234, 0.5);}
 .contact-box input{margin-top: 40px;border-top: none;border-left: none;border-right: none}
 input:focus {outline: none;}
 .about-session{background-color: #f1f4f6;}
@@ -43,17 +50,39 @@ input:focus {outline: none;}
     border:none;
 }
 .trainers-name{font-size: 25px}
-@media (max-width: 576px) {
-.header-content h1, h2{font-size: 30px;padding-left:40px;}
-.header-content{margin-top: 100px}
- .about-session .row{padding-top: 100%;}
+.sub-tittle{color:#fa7c30;font-size: 13px;}
+.trainers-session .card p{font-size: 14px;}
+.media-one{background-image: url('../images/media1.jpg');height: 443px;background-position: fixed center;background-color:rgba(0,0,0,.5);
+ background-blend-mode: overlay;background-repeat: no-repeat;background-size: 100% 100%; padding-top: 130px}
+ .media-two{background-image: url('../images/media2.jpg');height: 443px;background-position: fixed center;background-color:rgba(0,0,0,.5);
+ background-blend-mode: overlay;background-repeat: no-repeat;background-size: 100% 100%;padding-top: 130px}
+.media-one p{font-size: 30px;}
+.media-two p{font-size: 30px;}
+.footer span{;color: white}
+@media (max-width: 990px) {
+    .navbar-css{background:brown;height: auto;}
+    .navbar-css ul li{display: block;display: none;}
+     .toggle ul li{display: block}
+    .right-menu{text-align: left;}
+    .left-menu{float: none;}
+    .logo{float:none;text-align: left;padding: 16px 20px}
+    .logo i{display: block;}
+    .header-content h1, h2{font-size: 40px;padding-left:40px;}
+    .header-content{margin-top: 300px}
+    .about-session .row{padding-top: 100%;}  
+    .contact-box .button{margin-bottom: 30px; }
+    .contact-box img{width: 104.4%}
+    .program-session .card h3{font-size: 20px}
+    .program-session .card a {font-size: 10px;}
+    .about-session .row{padding-top: 65%;}
+
 }
 @media (max-width: 768px) {
-	.header-content h1, h2{font-size: 30px;padding-left:40px;}
-    .header-content{margin-top: 100px}
-    .about-session .row{padding-top: 100%;}  
+  .contact-box img{width: 106%}
+  .about-session .row{padding-top: 70%;}
 }
-@media (max-width: 1026px) {
-	.bg-dark {
-    background-color: #fa7c30!important;
+@media (max-width: 580px) {
+  .contact-box img{width: 106%}
+  .about-session .row{padding-top: 85%;}
 }
+

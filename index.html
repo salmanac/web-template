@@ -5,54 +5,35 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-
-<header>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#"><img src="images/logo.png" width="100%"></a>
-
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav text-uppercase">
-      <li class="nav-item">
-        <a class="nav-link" href="#">home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">about us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">pages</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">blog</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">contact us</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav text-uppercase ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">sign up</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">chose plan</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="container">
+<div class="header">
+<div class="navbar-css">
+   <div class="logo">
+   	  	<a href=""><img src="images/logo.png" alt=""></a>
+   	  	<i class="fa fa-bars" id="bar"></i>
+   </div>
+   <div class="left-menu" id='ul-li'>
+   	  <ul>
+   	  	<li><a href="">home</a></li>
+   	  	<li><a href="">about us</a></li>
+   	  	<li><a href="">pages</a></li>
+   	  	<li><a href="">blog</a></li>
+   	  	<li><a href="">contact us</a></li>
+   	  </ul>
+   </div>
+   <div class="right-menu" id='ul-li'>
+   	    <ul>
+   	        <li><a href="">login</a></li>
+   	        <li><a href="">sign up</a></li>
+   	        <li><a href="">chose plan</a></li>
+   	    </ul>
+   </div>
+</div>
+<<div class="container">
 	<div class="row header-content">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
 			<h1 class="text-white font-weight-bolder text-uppercase">Make Your Body</h1>
@@ -64,41 +45,41 @@
 </div>
 <div class="container contact-box bg-white">
 	<div class="row">
-		<div class="col-lg-4 col-md-12 col-sm-3 col-12">
+		<div class="col-lg-4 col-md-12 col-sm-12 col-12">
 			<img src="images/header2.jpg" height="520" width="100%">
 		</div>
-		<div class="col-lg-8 col-md-12 col-sm-9 col-12 text-center ">
+		<div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center ">
 			<h3 class="text-uppercase pt-5 ">fee 7 days </h>
 			<h3 class="text-uppercase font-weight-bolder">online booking </h3>
 			<form action="" class="text-center">
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="3 people">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="Date">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="Time">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="Name">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="Phone">
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-3 col-12">
+					<div class="col-lg-4 col-md-4 col-sm-3 col-3">
 						<input type="text" placeholder="Email">
 					</div>
 				</div>
-				<input type="submit" class="btn btn-primary text-uppercase float-center" value="get in touch">
+				<input type="submit" class="btn btn-primary text-uppercase float-center button" value="get in touch">
 			</form>
 		</div>
 	</div>
+</div> 
 </div>
-</header>
 <div class="about-session">
 	<div class="container">
 		<div class="row">
@@ -141,7 +122,7 @@
 				<div class="card yoga-classes">
 					<img src="images/program-image3.jpg" alt="">
 					<h3 >Yoga Classes</h3>
-					<p >What do you think about yoga? If you have a passion for this activity, we’ve got a special prog....</p>
+					<p >What do you think about yoga? If you have a passion for this activity, we’ve got a...</p>
 					<a href="" class="btn btn-primary text-uppercase w-50">get in touch</a>
 				</div>
 			</div>	
@@ -167,33 +148,86 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 			</div>
 		</div>
-		<div class="row text-center">
-			<div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5 ">
+		<div class="row mt-5  text-center">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-12 ">
 			    <div class="card">
-       				<img src="images/trainers1.png" alt="">
-					<p class="trainers-name font-weight-bolder pt-5">Sarra Miller</p>
-					<p>Our staff includes amazing professionals that have an eye for crossfit.</p>
-					<p><a href="" class="btn btn-primary text-uppercase w-50 ">get in touch</a></p>
+       				<img src="images/trainers1.png" width="100%" height="403">
+					<h3 class="trainers-name font-weight-bolder pt-4">Sarra Miller</h3>
+					<h6 class="text-center font-weight-bolder text-uppercase sub-tittle">spinning trainer</h6>
+					<p class="pt-3 pb-3">Our staff includes amazing professionals that have an eye for crossfit.</p>
 			    </div>
 			</div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
 				<div class="card">
-					<img src="images	/trainers2.png" alt="">
-					<p class="trainers-name font-weight-bolder pt-5">Sarra Miller</p>
-					<p >Work out in fitness groups or with a personal certified trainer in our gym center.</p>
-					<p><a href="" class="btn btn-primary text-uppercase w-50 ">get in touch</a></p>
+					<img src="images/trainers2.png" width="100%" height="403">
+					<h3 class="trainers-name font-weight-bolder pt-4">John Doe</h3>
+					<h6 class="text-center font-weight-bolder text-uppercase sub-tittle">bootcamp trainer</h6>
+					<p class="pt-3 pb-3">Our staff includes amazing professionals that have an eye for crossfit.</p>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-5">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-12 ">
 	    	    <div class="card">
-					<img src="images/trainers3.png" alt="">
-				    <p class="trainers-name font-weight-bolder pt-5">Sarra Miller</p>
-			 	    <p >What do you think about yoga? If you have a passion for this activity, we’ve got a special prog....</p>
-					<p><a href="" class="btn btn-primary text-uppercase w-50 ">get in touch</a></p>
+					<img src="images/trainers3.png" width="100%" height="403">
+					<h3 class="trainers-name font-weight-bolder pt-4">Sarra Miller</h3>
+					<h6 class="text-center font-weight-bolder text-uppercase sub-tittle">spinning trainer</h6>
+			 	    <p class="pt-3 pb-3">Our staff includes amazing professionals that have an eye for crossfit.</p>
 			    </div>
 			</div>	
 		</div>		
 	</div>
+	<div class="container-fluid mt-5">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 media-one text-center text-white text-uppercase">
+				<p>tru for free</p>
+				<h2 class="font-weight-bolder">free 5 days pass</h2>
+				<a href="" class="btn btn-primary text-uppercase mt-5">get in touch</a>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-12 media-two text-center text-white text-uppercase"> 
+				<p>call us and tru</p>
+				<h2 class="font-weight-bolder">957 547 4545</h2>
+				<a href="" class="btn btn-primary text-uppercase mt-5 ">get in touch</a>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<div class="bg-dark footer">
+    <div class="container">
+	    <div class="row pt-5 pb-5">
+		    <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-white">
+			    <a href=""><img src="images/logo.png" alt=""></a>
+			    <p class="pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		    </div>
+		    <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-white">
+		    	<h4 class="text-uppercase pb-3">blog</h4>
+		    	<p><img src="images/blog1.jpg" height="100%" width="90">
+		    	Consectetur adipiscing elit....</p>
+		    	<p><img src="images/blog2.jpg" height="100%"  width="90">
+		    	Consectetur adipiscing elit....</p>
+		    	<p><img src="images/blog3.jpg" height="100%" width="90">
+		    	Consectetur adipiscing elit....</p>
+		    </div>
+		    <div class="col-lg-4 col-md-12 col-sm-12 col-12 text-white">
+		    	<h4 class="text-uppercase pb-3">blog</h4>
+		    	<div class="d-flex">
+			    <img src="images/blog1.jpg" height="70" width="90">
+			    <img src="images/blog2.jpg" height="70" width="90">
+			    <img src="images/blog3.jpg" height="70" width="90">
+			    </div>
+			    <div class="d-flex">
+			    <img src="images/blog1.jpg" height="70"  width="90">
+			    <img src="images/blog2.jpg" height="70"  width="90">
+			    <img src="images/blog3.jpg" height="70"  width="90">
+			    </div>
+			    <div class="d-flex">
+			    <img src="images/blog1.jpg" height="70"  width="90">
+			    <img src="images/blog2.jpg" height="70"  width="90">
+			    <img src="images/blog3.jpg" height="70"  width="90">
+			    </div>
+			    <p class="pt-2">View more photos</p>
+		    </div>
+	    </div>
+    </div>
 </div>
 </body>
  <!-- jQuery library -->
@@ -203,3 +237,10 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </html>
+<script>
+	$(document).ready(function(){
+		$('#bar').click(function(){
+			$('#ul-li ').toggleClass('toggle'); 
+		})
+	})
+</script>
